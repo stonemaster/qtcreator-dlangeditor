@@ -30,6 +30,7 @@ The plugin provides some features for comfortable code editing and programming u
 #Build requirements
 1. Qt >= 4.8.0
 1. Qt Creator >= 3.1.0 (with sources for plugins building, of course)
+1. msgpack >= 0.5 with development headers
 
 #Usage requirements
 1. [DCD](https://github.com/Hackerpilot/DCD) binaries (server and client).

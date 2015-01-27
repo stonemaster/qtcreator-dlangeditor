@@ -66,6 +66,10 @@ LIBS += -L$$IDE_PLUGIN_PATH/QtProject \
         -L$$IDE_BUILD_TREE/plugins/QtProject \
         -L$$IDE_BUILD_TREE/plugins
 
+unix {
+LIBS += -lmsgpack
+}
+
 QTC_LIB_DEPENDS += \
     # nothing here at this time
 
